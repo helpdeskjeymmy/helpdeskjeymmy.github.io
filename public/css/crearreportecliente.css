@@ -1,0 +1,49 @@
+/* Estilos generales */
+.modal-content {
+    border-radius: 10px; /* Bordes redondeados para el contenido modal */
+}
+
+.modal-header {
+    background-color: #007bff; /* Color de fondo del encabezado modal */
+    color: #fff; /* Color del texto del encabezado modal */
+}
+
+.modal-body, .modal-footer {
+    padding: 20px; /* Espaciado interno */
+}
+
+.modal-footer {
+    border-top: none; /* Sin borde superior para el pie de página modal */
+}
+
+/* Estilos para las etiquetas del formulario */
+label {
+    font-weight: bold; /* Negrita */
+}
+
+/* Estilos para el botón de cierre modal */
+.close {
+    color: #fff; /* Color del botón de cierre */
+    opacity: 1; /* Opacidad completa */
+}
+
+.close:hover {
+    color: #ccc; /* Cambio de color al pasar el ratón */
+}
+
+/* Estilos para los campos de entrada del formulario */
+.form-control {
+    margin-bottom: 15px; /* Margen inferior */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para el botón "Crear" */
+.btn-primary {
+    background-color: #007bff; /* Color de fondo */
+    border-color: #007bff; /* Color del borde */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el ratón */
+    border-color: #0056b3; /* Cambio de color del borde al pasar el ratón */
+}

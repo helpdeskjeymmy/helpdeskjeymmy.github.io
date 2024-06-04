@@ -1,0 +1,54 @@
+/* Estilos generales */
+.card {
+    border: 1px solid #ddd; /* Borde del contenedor de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+.card-body {
+    padding: 20px; /* Espaciado interno */
+}
+
+h1 {
+    font-weight: bold; /* Negrita para los títulos */
+    color: #007bff; /* Color del título principal */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Tamaño de fuente para los títulos de la tarjeta */
+    margin-bottom: 15px; /* Margen inferior */
+}
+
+.card-text {
+    font-size: 1rem; /* Tamaño de fuente para el texto de la tarjeta */
+    color: #555; /* Color del texto */
+}
+
+ul {
+    list-style-type: none; /* Eliminar viñetas */
+    padding: 0; /* Eliminar el relleno */
+}
+
+ul li {
+    margin-bottom: 5px; /* Margen inferior entre elementos de lista */
+}
+
+/* Estilos específicos para las imágenes de los dispositivos */
+.card-body h4 span {
+    margin-right: 10px; /* Margen derecho entre la imagen y el texto */
+}
+
+/* Estilos para los elementos de la lista */
+ul li {
+    font-weight: bold; /* Negrita para los elementos de la lista */
+}
+
+/* Estilos para el enlace de inicio de sesión */
+.login-link {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.login-link:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}

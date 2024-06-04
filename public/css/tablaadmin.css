@@ -1,0 +1,81 @@
+/* Estilos para la tabla */
+.table thead th {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: left; /* Alineado a la izquierda */
+    font-weight: 600;
+}
+
+.table tbody td {
+    text-align: left; /* Alineado a la izquierda */
+    vertical-align: middle;
+    padding: 0.75rem;
+}
+
+/* Resto del CSS sigue igual */
+
+
+/* Botones */
+.table .btn {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+}
+
+/* Botón Cambiar contraseña */
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+/* Botón Activar/Desactivar */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+/* Botón Editar */
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+/* Botón Eliminar */
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Iconos */
+.table .fas {
+    margin-right: 0.25rem;
+}

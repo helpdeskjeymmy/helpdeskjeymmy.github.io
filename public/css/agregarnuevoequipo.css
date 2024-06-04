@@ -1,0 +1,27 @@
+/* Estilos para el formulario dentro del modal */
+#frmAsignaEquipo {
+    padding: 20px; /* Espaciado interno */
+}
+
+#modalAsignarEquipo .modal-title {
+    font-size: 1.25rem; /* Tamaño de fuente del título del modal */
+    color: white; /* Color del título del modal */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+#modalAsignarEquipo .modal-body {
+    padding: 20px; /* Espaciado interno */
+}
+
+#modalAsignarEquipo label {
+    font-weight: bold; /* Negrita para los labels */
+    margin-bottom: 5px; /* Espacio inferior */
+}
+
+#modalAsignarEquipo .form-control {
+    margin-bottom: 15px; /* Espacio entre los elementos de entrada */
+}
+
+#modalAsignarEquipo .modal-footer {
+    justify-content: flex-end; /* Alineación de los botones a la derecha */
+}

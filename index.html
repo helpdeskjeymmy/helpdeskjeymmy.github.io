@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/login.css">
+    <title>Login para el usuario</title>
+</head>
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+
+
+          <div class="fadeIn first">
+            <img src="public/img/mesa-de-ayuda.png" width="30%" id="icon" alt="User Icon"/>
+          </div>
+      
+
+          <form id="frmLogin" method="POST" onsubmit="return loginUsuario()">
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="Usuario">
+            <input type="password" id="password" class="fadeIn third" name="password" placeholder="Constraseña" required>
+            <input type="submit" class="fadeIn fourth" value="Log In">
+          </form>
+      
+    
+          <div id="formFooter">
+            <a class="underlineHover" href="#" data-toggle="modal" data-target="#modalContacto">Contactar con el administrador</a>
+          </div>
+      
+        </div>
+      </div>
+
+  <div class="modal fade" id="modalContacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Contactar con el administrador</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Administrador: 631246141 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal"> Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+      <script src="public/jquery/jquery-3.6.0.min.js"></script>
+      <script src="public/bootstrap/popper.min.js"></script>
+      <script src="public/bootstrap/bootstrap.min.js"></script>
+      <script src="public/sweetalert2/sweetalert2@11.js"></script>
+      <script src="public/js/login.js"></script>
+</body>
+</html>
